@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "1",
+    "productName": "Margherita Pizza",
+    "description": "Classic pizza with tomato sauce, mozzarella cheese, and fresh basil",
+    "price": 250,
+    "category": "Italian",
+    "inStock": true,
+    "productImage": "/src/assets/Images/pizza1.png",
+    "createdAt": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "2",
+    "productName": "Pepperoni Pizza",
+    "description": "Delicious pizza topped with pepperoni and cheese",
+    "price": 300,
+    "category": "Italian",
+    "inStock": true,
+    "productImage": "/src/assets/Images/pizza2.png",
+    "createdAt": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "3",
+    "productName": "Chicken Burger",
+    "description": "Juicy grilled chicken burger with lettuce and tomato",
+    "price": 180,
+    "category": "Fast Food",
+    "inStock": true,
+    "productImage": "/src/assets/Images/product image.png",
+    "createdAt": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "4",
+    "productName": "Veg Thali",
+    "description": "Traditional Indian vegetarian thali with variety of dishes",
+    "price": 120,
+    "category": "Indian",
+    "inStock": true,
+    "productImage": "/src/assets/Images/product image.png",
+    "createdAt": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "_id": "5",
+    "productName": "Pasta Alfredo",
+    "description": "Creamy pasta with alfredo sauce and parmesan cheese",
+    "price": 220,
+    "category": "Italian",
+    "inStock": true,
+    "productImage": "/src/assets/Images/product image.png",
+    "createdAt": "2025-01-01T00:00:00.000Z"
+  }
+]

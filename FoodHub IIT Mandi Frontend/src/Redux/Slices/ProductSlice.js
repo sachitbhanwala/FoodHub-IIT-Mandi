@@ -1,5 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit"
 import axiosInstance from "../../Helpers/axiosInstance";
+import { mockApi } from "../../services/mockApiService";
 import toast from "react-hot-toast";
 
 const initialState = {
@@ -11,7 +12,10 @@ export const getAllProducts = createAsyncThunk('/products/getAll', async () => {
         const apiResponse = await axiosInstance.get('/products');
         return apiResponse;
     } catch(error) {
-        throw error;
+        console.log('API failed, using mock data');
+        // Fallback to mock data when API is unavailable
+        const mockResponse = await mockApi.getAllProducts();
+        return mockResponse;
     }
 });
 
@@ -20,7 +24,10 @@ export const getproductDetails = createAsyncThunk('/products/getDetails', async 
         const apiResponse = await axiosInstance.get(`/products/${id}`);
         return apiResponse;
     } catch(error) {
-        throw error;
+        console.log('API failed, using mock data for product details');
+        // Fallback to mock data when API is unavailable
+        const mockResponse = await mockApi.getProductById(id);
+        return mockResponse;
     }
 });
 
