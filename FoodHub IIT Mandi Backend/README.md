@@ -75,10 +75,10 @@ Backend API for the FoodHub IIT Mandi food ordering application. Built with Node
 
 ## Developer
 
-**Kartavya Sandhu**  
+**Sachit Bhanwala**  
 Computer Science & Engineering Student  
 Indian Institute of Technology Mandi  
-Email: kartavya.sandhu@iitmandi.ac.in
+Email: sachit.bhanwala@iitmandi.ac.in
 
 ## License
 

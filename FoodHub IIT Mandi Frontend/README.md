@@ -44,10 +44,10 @@ A modern food ordering web application designed for IIT Mandi campus community. 
 
 ## Developer
 
-**Kartavya Sandhu**  
+**Sachit Bhanwala**  
 Computer Science & Engineering Student  
 Indian Institute of Technology Mandi  
-Email: kartavya.sandhu@iitmandi.ac.in
+Email: sachit.bhanwala@iitmandi.ac.in
 
 ## License
 
