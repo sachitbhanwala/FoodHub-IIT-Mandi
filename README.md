@@ -42,7 +42,7 @@ A comprehensive food ordering web application designed for local development and
    npm install
    npm run dev
    ```
-4. Open your browser at http://localhost:5173
+4. Open your browser at [http://localhost:5173](https://sachitbhanwala.github.io/FoodHub-IIT-Mandi/)
 
 ---
 
