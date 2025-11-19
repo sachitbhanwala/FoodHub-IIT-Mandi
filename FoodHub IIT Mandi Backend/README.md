@@ -63,7 +63,7 @@ Backend API for the FoodHub IIT Mandi food ordering application. Built with Node
 4. Start the development server:
    PORT=8080
    MONGODB_URL=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret
+   JWT_SECRET=HKSDJFODSI8932Hkdhskdhfi523
    ```
 
 3. Start the server:
@@ -76,9 +76,9 @@ Backend API for the FoodHub IIT Mandi food ordering application. Built with Node
 ## Developer
 
 **Sachit Bhanwala**  
-Computer Science & Engineering Student  
+Electrical Engineering Student  
 Indian Institute of Technology Mandi  
-Email: sachit.bhanwala@iitmandi.ac.in
+Email: b23291@students.iitmandi.ac.in
 
 ## License
 
